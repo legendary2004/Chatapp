@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+p {
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body {
+  background-color: #2e2c2e;
+  height: 900px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div-1 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.div-2 {
   display: flex;
-  flex-direction: column;
+  background-color: #9516f0;
+  height: 70px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.div-3 {
+  height: 900px;
+  background-color: #ac4df0;
+}
+
+.div-3_1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-4 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.div-5 {
+  background-color: gray;
+  padding: 10px;
+  height: calc(100% - 215px);
+  position: relative;
+  overflow-y: auto;
+  scrollbar-width: 10px;
+}
+
+.div-5_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.div-6 {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 67%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.userProfile {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 50px;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.userChat {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userChat:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.profilePic {
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.profileName {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 5px;
+  word-wrap: break-word;
+}
+
+.nav-link-1 {
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  font-family: Verdana, sans-serif !important;
+  color: #01030d !important
+}
+
+.nav-link-1:hover {
+  background:  #cfd0d4;
+  transition: 0.3s;
+}
+
+.form {
+  height: 900px;
+  width: 25%;
+  background-color: #ac4df0;
+  padding-top: 200px;
+}
+
+.nav-1 {
+  background-color: transparent !important;
+}
+
+.form-1 {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #c9c7c9 !important;
+  border-radius: 0px !important;
+}
+
+.form-3 {
+  background-color: transparent !important;
+}
+
+.input-group-1 {
+  height: 43px !important;
+}
+
+.form-1:focus {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.btn-1:focus {
+  border: none !important;
+}
+
+.form-label {
+  height: 100% !important;
+}
+
+.fa-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 0px;
+}
+
+.lastMessage {
+  margin-left: 5px;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden; 
+  width: 300px;
 }
